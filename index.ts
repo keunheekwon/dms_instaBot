@@ -218,7 +218,7 @@ function getFlag(): boolean {
 
 // Discord bot commands for manual repost, schedule change, notification control, and day settings
 client.on("messageCreate", async (message) => {
-    if (message.author.id === "534214957110394881") {
+    if (message.author.id === "735802816106463243") {
         if (message.content === "!재전송") {
             console.log("✅ 재전송 명령어 실행됨");
             await message.reply("급식을 재전송합니다.");
